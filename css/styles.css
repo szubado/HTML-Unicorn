@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+  background-color: #f8e2ef;
+  margin: 5% 10%;
+  font-family: Raleway;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.parent {
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  padding: 0rem 5rem;
+  vertical-align: middle; 
+  font-size: 15px;
+  font-weight: bold;
+  color: #368b9b;
+}
+/* #topHeader div {
+color: #368b9b;
+display: inline;
+padding: 8%;
+font-size: 15px;
+font-weight: bold;
+} */
+
+
+#middleHeader {
+  border: 1px solid #d45d84;
+  padding: 15px 20px 5px 20px;
+  margin: 3%;
+  text-align: center;
+}
+
+#name {
+  color:#d45d84;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#bio {
+  font-size: 20px;
+  font-weight: light;
+  line-height: 1.6em;
+  word-spacing: 0.2em;
+}
+
+img {
+  height: 200px;
+  display: block;
+  margin: 5% auto;
+}
+
+#bottomHeader {
+  text-align: center;
+  text-decoration: underline ;
+  font-style: italic;
+}
